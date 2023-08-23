@@ -8,9 +8,9 @@
 Laravel sociallogin is a package that simplifies the process of authenticating users with various OAuth providers, such as Google, Facebook. It abstracts away the complexities of OAuth authentication, making it easier to integrate third-party authentication into your Laravel application.
 
 ## Indexing
-1. [Login Integration](#LoginIntegration)
+1. [Login Integration](#loginintegration)
 2. [Installation](#installation)
-3. [ENV](#ENV)
+3. [ENV](#env)
 4. [configuration](#configuration)
 5. [Publish](#publish)
 6. [Routes](#routes)
