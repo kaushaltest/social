@@ -1,0 +1,29 @@
+{
+    "name": "sociallogin/sociallogin",
+    "description": "This will provide social login function",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kaushal",
+            "email": "tretiya.kaushal@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4",
+        "laravel/socialite": "^5.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "sociallogin\\sociallogin\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel":{
+            "providers":[
+                "sociallogin\\sociallogin\\SocialloginServiceProvider"
+            ]
+        }
+    }
+}
